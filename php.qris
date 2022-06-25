@@ -1,0 +1,14 @@
+<?php
+
+// 00020101021126570011ID.DANA.WWW011893600915302259148102090225914810303UMI51440014ID.CO.QRIS.WWW0215ID10200176114730303UMI5204581253033605802ID5922Warung Sayur Bu Sugeng6010Kab. Demak610559567630458C7
+
+echo "[+] QRIS Statis to Dinamis Converter - By: GidhanB.A\n";
+echo "[+] Pilih Pilihan Berikut: ";
+ echo "[+] 1.Dengan Nominal:
+ echo "[+] 2.Tanpa Nominal:
+       if ($fee == '1') {
+           echo "[+] Silahkan masukkan nominal Rp: ";
+           echo "[+] Silahkan masukkan nama toko: ";
+           echo "[+] Silahkan masukkan nomer whatsapp anda: ";
+           $qris = trim(fgets(STDIN));
+           echo "[+]qris anda akan segera kami kirimkan silahkan whatsapp owner kami di +6285868055463 untuk meminta qris
